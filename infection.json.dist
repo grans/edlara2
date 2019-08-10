@@ -1,0 +1,15 @@
+{
+    "timeout": 10,
+    "source": {
+        "directories": [
+            "app",
+            "routes"
+        ]
+    },
+    "logs": {
+        "text": "storage\/logs\/infection.log"
+    },
+    "mutators": {
+        "@default": true
+    }
+}
