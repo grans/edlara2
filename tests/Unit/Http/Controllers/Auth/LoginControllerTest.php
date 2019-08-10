@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Http\Controllers\Auth;
 
-use PHPUnit\Framework\TestCase;
+use Tests\TestCase;
 
 class LoginControllerTest extends TestCase
 {

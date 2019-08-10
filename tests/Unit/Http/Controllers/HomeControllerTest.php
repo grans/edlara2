@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Http\Controllers;
 
-use PHPUnit\Framework\TestCase;
+use Tests\TestCase;
 
 class HomeControllerTest extends TestCase
 {
