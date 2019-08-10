@@ -1,4 +1,4 @@
-#EdLara v2
+# EdLara v2
 [![Build Status](https://travis-ci.org/grans/edlara2.svg?branch=master)](https://travis-ci.org/grans/edlara2) [![StyleCI](https://github.styleci.io/repos/201577161/shield?branch=master)](https://github.styleci.io/repos/201577161) [![Maintainability](https://api.codeclimate.com/v1/badges/ecbc74888f6ff3d0bceb/maintainability)](https://codeclimate.com/github/grans/edlara2/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/ecbc74888f6ff3d0bceb/test_coverage)](https://codeclimate.com/github/grans/edlara2/test_coverage)
 
 ## The Features of The Application 
