@@ -14,7 +14,7 @@ before_script:
   - ./cc-test-reporter before-build
   - cp .env.example .env
   - composer self-update
-  - composer install --prefer-source --no-interaction --quiet
+  - composer install --no-interaction --quiet
   - php artisan key:generate
 
 before_install:
