@@ -1,4 +1,6 @@
-<?php declare(strict_types = 1);
+<?php
+
+declare(strict_types=1);
 
 namespace App\Http\Middleware;
 
@@ -10,7 +12,7 @@ class CheckForMaintenanceModeTest extends TestCase
     private $checkForMaintenanceMode;
 
     protected function setUp():void
-{
+    {
         $this->checkForMaintenanceMode = new CheckForMaintenanceMode($this->createApplication());
     }
 

@@ -1,4 +1,6 @@
-<?php declare(strict_types = 1);
+<?php
+
+declare(strict_types=1);
 
 namespace App\Http\Middleware;
 
@@ -10,9 +12,9 @@ class VerifyCsrfTokenTest extends TestCase
     private $verifyCsrfToken;
 
     protected function setUp():void
-{
-    $app = $this->createApplication();
-        $this->verifyCsrfToken = new VerifyCsrfToken($app,$app->make('encrypter'));
+    {
+        $app = $this->createApplication();
+        $this->verifyCsrfToken = new VerifyCsrfToken($app, $app->make('encrypter'));
     }
 
     public function testMissing()
