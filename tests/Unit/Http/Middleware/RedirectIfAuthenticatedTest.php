@@ -1,4 +1,6 @@
-<?php declare(strict_types = 1);
+<?php
+
+declare(strict_types=1);
 
 namespace App\Http\Middleware;
 
@@ -10,7 +12,7 @@ class RedirectIfAuthenticatedTest extends TestCase
     private $redirectIfAuthenticated;
 
     protected function setUp():void
-{
+    {
         $this->redirectIfAuthenticated = new RedirectIfAuthenticated();
     }
 
