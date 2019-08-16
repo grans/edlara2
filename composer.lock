@@ -470,16 +470,16 @@
         },
         {
             "name": "laravel-frontend-presets/tailwindcss",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-frontend-presets/tailwindcss.git",
-                "reference": "7eeb4bf0c68ecc189f37622df540a9f1226d14ef"
+                "reference": "1f388791e60ca35b395db3bc9cea10bdcc890ab1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-frontend-presets/tailwindcss/zipball/7eeb4bf0c68ecc189f37622df540a9f1226d14ef",
-                "reference": "7eeb4bf0c68ecc189f37622df540a9f1226d14ef",
+                "url": "https://api.github.com/repos/laravel-frontend-presets/tailwindcss/zipball/1f388791e60ca35b395db3bc9cea10bdcc890ab1",
+                "reference": "1f388791e60ca35b395db3bc9cea10bdcc890ab1",
                 "shasum": ""
             },
             "require": {
@@ -508,7 +508,7 @@
                 "preset",
                 "tailwindcss"
             ],
-            "time": "2019-07-16T00:32:36+00:00"
+            "time": "2019-08-14T23:48:28+00:00"
         },
         {
             "name": "laravel/framework",
@@ -4682,8 +4682,8 @@
             "authors": [
                 {
                     "name": "Arne Blankerts",
-                    "email": "arne@blankerts.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "arne@blankerts.de"
                 }
             ],
             "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
